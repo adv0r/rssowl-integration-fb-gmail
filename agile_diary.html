@@ -1,0 +1,2000 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="it" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="it"><head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="Project+Wikis_files/styles_002.css">
+<link rel="stylesheet" type="text/css" href="Project+Wikis_files/styles.css">
+
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://teaching.case.unibz.it/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://teaching.case.unibz.it/theme/standard/styles_ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://teaching.case.unibz.it/theme/chameleon/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://teaching.case.unibz.it/theme/chameleon/styles_ie6.css" />
+<![endif]-->
+
+<script type="text/javascript" src="Project+Wikis_files/yahoo-min.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/event-min.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/connection-min.js"></script>
+
+    <meta name="keywords" content="moodle, 1011-CS-SPM: Project Wikis ">
+    <title>1011-CS-SPM: Project Wikis</title>
+    <link rel="shortcut icon" href="http://teaching.case.unibz.it/theme/chameleon/favicon.ico">
+
+        <!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(http://teaching.case.unibz.it/lib/csshover.htc);} /*]]>*/</style>-->
+
+<script type="text/javascript" src="Project+Wikis_files/javascript-static.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/javascript-mod.php"></script>
+<script type="text/javascript" src="Project+Wikis_files/overlib.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/overlib_cssstyle.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/cookies.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/ufo.js"></script>
+<script type="text/javascript" src="Project+Wikis_files/dropdown.js"></script>  
+
+<script type="text/javascript" defer="defer">
+//<![CDATA[
+setTimeout('fix_column_widths()', 20);
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "http://teaching.case.unibz.it" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+  opener.document.forms['theform'].message.focus();
+}
+
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script>
+</head><body class="mod-wiki course-273 dir-ltr lang-it_utf8" id="mod-wiki-view">
+
+<div id="page">
+
+    <div id="header" class="clearfix">
+      <h1 class="headermain">Year 2010-2011: Software Process Management </h1>
+      <div class="headermenu"><div class="navigation">
+<ul><li><form action="http://teaching.case.unibz.it/mod/wiki/view.php" onclick="this.target='_top';"><fieldset class="invisiblefieldset"><input name="id" value="10055" type="hidden"><button type="submit" title="Attività Precedente"><span class="arrow ">◀</span><span class="accesshide ">&nbsp;Attività Precedente</span></button></fieldset></form></li><li><form action="http://teaching.case.unibz.it/course/jumpto.php" method="get" id="navmenupopup" class="popupform"><div><select id="navmenupopup_jump" name="jump" onchange="self.location=document.getElementById('navmenupopup').jump.options[document.getElementById('navmenupopup').jump.selectedIndex].value;">
+   <option value="http://teaching.case.unibz.it/mod/forum/view.php?id=10054" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/forum/icon.gif);">News forum</option>
+   <option value="http://teaching.case.unibz.it/mod/wiki/view.php?id=10055" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/wiki/icon.gif);">General Wiki of SPM Course</option>
+   <option value="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056" selected="selected" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/wiki/icon.gif);">Vai a...</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10058" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Course presentation form</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10059" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Grading policy</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10060" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Lectures time and location</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10061" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">How to contact the instructors</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10063" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">About the project for the step-by-step approach</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10064" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Weekly deliverables</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10066" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">UML (Wikipedia)</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10067" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Software Engineering Body of Knowledge</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10068" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Book Excerpt: The Art of Project Management</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10070" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Behind Closed Doors - Secrets of Great Management</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10071" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">High Output Management</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10072" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">IBM Rational Rose</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10073" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Online Courses at Stanford</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10074" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Agile Modeling</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10075" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Product backlog template</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10181" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Review of testing techniques by A. Sillitti (not r...</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=11046" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Uploads for the all-in-one approach</option>
+   <optgroup label="Settimana 1">   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10080" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Introduction to Operations (in Software ...</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10081" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Additional resources on this subject</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10082" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Exercise from Krajewski &amp; Ritzman: BSB, INC: T...</option>
+   </optgroup>   <optgroup label="Settimana 2">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10239" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Submission of Project Proposal</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10084" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Organizing the Software Development</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10373" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 3rd lecture</option>
+   </optgroup>   <optgroup label="Settimana 3">   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10087" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on The Software Development Process</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10088" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Organizing Software Development</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10374" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 4th lecture</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10092" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Plan-based Development</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10093" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Software Development Models</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10094" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Plan Based Models</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10375" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 5th lecture</option>
+   </optgroup>   <optgroup label="Settimana 4">   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10100" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Example of a report from last year (not perfect)</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10376" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 6th lecture</option>
+   </optgroup>   <optgroup label="Settimana 5">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10381" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group Evaluation - 1st sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10382" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 1st sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10105" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Plan-based Software Process</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10429" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 7th lecture</option>
+   </optgroup>   <optgroup label="Settimana 6">   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10108" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Agile-based approaches</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10109" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Agile Methods</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10491" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 8th lecture</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10492" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 9th lecture</option>
+   </optgroup>   <optgroup label="Settimana 7">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10383" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 2nd sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10384" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 2nd sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10489" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 10th lecture</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10124" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Agile models</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10490" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 11th lecture</option>
+   </optgroup>   <optgroup label="Settimana 8">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10497" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 3rd sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10498" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 3rd sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10130" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Maintenance, re-engineering, and reverse...</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10131" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Maintenance</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10132" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Managing the code base (also useful for...</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10535" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 12th lecture</option>
+   </optgroup>   <optgroup label="Settimana 9">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10499" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 4th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10500" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 4th sprint</option>
+   </optgroup>   <optgroup label="Settimana 10">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10501" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 5th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10502" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 5th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10616" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 14th lecture</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10618" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 15th lecture</option>
+   </optgroup>   <optgroup label="Settimana 11">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10581" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 6th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10582" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 6th sprint</option>
+   </optgroup>   <optgroup label="Settimana 12">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10623" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 7th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10624" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 7th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10141" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on IBM Rational Rose</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10142" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">IBM Rational Rose Documentation</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10674" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 17th lecture</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10145" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Configuration Management</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10146" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Version Control with Subversion</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10675" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 18th lecture</option>
+   </optgroup>   <optgroup label="Settimana 13">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10634" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 8th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10635" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 8th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10154" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Measuring Development</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10155" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Measuring Development</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10729" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 19th lecture</option>
+   </optgroup>   <optgroup label="Settimana 16">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10636" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 9th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10637" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Group evaluation - 9th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10158" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Planning</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10159" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Planning Software Development</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10730" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 21st lecture (part 1)</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10174" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Agile Planning</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10175" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Agile Planning</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10176" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Framework for Functional Sizing (by IFPUG)</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10731" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 21st lecture (part 2)</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10178" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Additional material on Function Points</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10180" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Testing</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10732" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 22nd lecture</option>
+   </optgroup>   <optgroup label="Settimana 17">   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10638" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 10th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=10639" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Individual evaluation - 10th sprint</option>
+   <option value="http://teaching.case.unibz.it/mod/assignment/view.php?id=11047" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/assignment/icon.gif);">Final evaluation</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10182" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on Software Quality</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10183" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Reading on Software Quality</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10184" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">From CMM to CMMi</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=11053" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 24th lecture (part 1)</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=10193" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Slides on PSP</option>
+   <option value="http://teaching.case.unibz.it/mod/resource/view.php?id=11054" style="background-image: url(http://teaching.case.unibz.it/theme/chameleon/pix/mod/resource/icon.gif);">Notes from the 24th lecture (part 2)</option>
+    </optgroup></select><input name="sesskey" value="C2eApWia3e" type="hidden"><div id="noscriptnavmenupopup" style="display: none;"><input value="Vai" type="submit"></div><script type="text/javascript">
+//<![CDATA[
+document.getElementById("noscriptnavmenupopup").style.display = "none";
+//]]>
+</script></div></form></li><li><form action="http://teaching.case.unibz.it/mod/resource/view.php" onclick="this.target='_top';"><fieldset class="invisiblefieldset"><input name="id" value="10058" type="hidden"><button type="submit" title="Prossima Attività"><span class="accesshide ">Prossima Attività&nbsp;</span><span class="arrow ">▶</span></button></fieldset></form></li></ul>
+</div></div>
+    </div>
+    <div class="navbar clearfix">
+            <div class="breadcrumb"><h2 class="accesshide ">Voi siete qui</h2> <ul>
+<li class="first"><a onclick="this.target='_top'" href="http://teaching.case.unibz.it/">CASE-Teaching</a></li><li class="first"> <span class="accesshide ">/&nbsp;</span><span class="arrow sep">▶</span> <a onclick="this.target='_top'" href="http://teaching.case.unibz.it/course/view.php?id=273">1011-CS-SPM</a></li><li class="first"> <span class="accesshide ">/&nbsp;</span><span class="arrow sep">▶</span> <a onclick="this.target='_top'" href="http://teaching.case.unibz.it/mod/wiki/index.php?id=273">Wiki</a></li><li class="first"> <span class="accesshide ">/&nbsp;</span><span class="arrow sep">▶</span> Project Wikis</li></ul></div>
+        <div class="navbutton">&nbsp;</div>
+        </div>
+    <!-- END OF HEADER -->
+<div id="content">
+    <div id="wikiPageActions">
+    <form id="otherwikis" action="http://teaching.case.unibz.it/mod/wiki/view.php"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="sideblockheading">&nbsp;Gruppi Wiki per Group 06 - RSSOwl:</td><td class="sideblockheading">Altri Wiki:&nbsp;&nbsp;<select id="menuwikiselect" class="select menuwikiselect" name="wikiselect" onchange="self.location=getElementById('otherwikis').wikiselect.options[getElementById('otherwikis').wikiselect.selectedIndex].value">
+   <option value="0">Scegli...</option>
+   <option value="view.php?id=10056&amp;groupid=251&amp;page=Project Wikis">Group 01 - Maven:Project Wikis</option>
+   <option value="view.php?id=10056&amp;groupid=259&amp;page=Project Wikis">Group 02 - DrJava:Project Wikis</option>
+   <option value="view.php?id=10056&amp;groupid=260&amp;page=Project Wikis">Group 03 - Mule:Project Wikis</option>
+   <option value="view.php?id=10056&amp;groupid=261&amp;page=Project Wikis">Group 04 - Personal Task Manager:Project Wikis</option>
+   <option value="view.php?id=10056&amp;groupid=262&amp;page=Project Wikis">Group 05 - Gantt Project:Project Wikis</option>
+   <option value="view.php?id=10056&amp;groupid=264&amp;page=Project Wikis" selected="selected">Group 06 - RSSOwl:Project Wikis</option>
+</select>
+</td></tr></tbody></table></form><table border="0" width="100%"><tbody><tr><td class="wikisearchform"><form id="search" action="http://teaching.case.unibz.it/mod/wiki/view.php"><fieldset class="invisiblefieldset"><span style="font-size: 0.6em;"><input value="Cerca Wiki:" type="submit"><input name="id" value="10056" type="hidden"><input name="q" size="20" type="text"> </span><input name="page" value="SearchPages" type="hidden"></fieldset></form></td><td class="wikilinksblock"><form action="http://teaching.case.unibz.it/course/jumpto.php" method="get" id="wikilinks" class="popupform"><div><select id="wikilinks_jump" name="jump" onchange="self.location=document.getElementById('wikilinks').jump.options[document.getElementById('wikilinks').jump.selectedIndex].value;">
+   <option selected="selected" value="javascript:void(0)">-- Scegli collegamenti Wiki --</option>
+   <option value="view.php?id=10056&amp;page=SiteMap">Mappa del sito</option>
+   <option value="view.php?id=10056&amp;page=PageIndex">Indice delle pagine</option>
+   <option value="view.php?id=10056&amp;page=NewestPages">Pagine più recenti</option>
+   <option value="view.php?id=10056&amp;page=MostVisitedPages">Pagine più visitate</option>
+   <option value="view.php?id=10056&amp;page=MostOftenChangedPages">Pagine più modificate</option>
+   <option value="view.php?id=10056&amp;page=UpdatedPages">Pagine aggiornate</option>
+   <option value="view.php?id=10056&amp;page=OrphanedPages">Pagine orfane</option>
+   <option value="view.php?id=10056&amp;page=WantedPages">Pagine da scrivere</option>
+   <option value="view.php?id=10056&amp;page=WikiExport">Esporta pagine</option>
+   <option value="view.php?id=10056&amp;page=FileDownload">Scarica file</option>
+</select><input name="sesskey" value="C2eApWia3e" type="hidden"><div id="noscriptwikilinks" style="display: none;"><input value="Vai" type="submit"></div><script type="text/javascript">
+//<![CDATA[
+document.getElementById("noscriptwikilinks").style.display = "none";
+//]]>
+</script></div></form></td><td class="wikiadminactions"></td><td class="howtowiki"><span class="helplink"><a title="Help with Uso di Wiki (new window)" href="http://teaching.case.unibz.it/help.php?module=wiki&amp;file=howtowiki.html&amp;forcelang=" onclick="this.target='popup'; return openpopup('/help.php?module=wiki&amp;file=howtowiki.html&amp;forcelang=', 'popup', 'menubar=0,location=0,scrollbars,resizable,width=500,height=400', 0);"><img class="iconhelp" alt="Help with Uso di Wiki (new window)" src="Project+Wikis_files/help.gif"></a></span></td></tr></tbody></table></div>
+    <div id="wiki-view" class="mwiki">
+    <div id="intro" class="generalbox box"><p>This
+is where you put your project wikis (only for people working in
+groups). All the documentation goes here: project description,
+user-story and task lists, sprint plans and sprints, etc.<br>
+<br>
+Groups:<br>
+  </p><ul type="circle"><li> [Group 01 - Maven] (SVN: <a href="https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_01" target="_blank">https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_01</a>)<br>
+ </li><li> [Group 02 - DrJava] (SVN: <a href="https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_02" target="_blank">https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_02</a>)<br>
+ </li><li> [Group 03 - Mule] (SVN: <a href="https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_03" target="_blank">https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_03</a>)<br>
+ </li><li> [Group 04 - Personal Task Manager] (SVN: <a href="https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_04" target="_blank">https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_04</a>)<br>
+ </li><li> [Group 05 - Gantt Project] (SVN: <a href="https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_05" target="_blank">https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_05</a>)<br>
+ </li><li> [Group 06 - RSSOwl] (SVN: <a href="https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_06" target="_blank">https://babbage.inf.unibz.it/teaching/2010/10/cs_2010_spm_06</a>)<br>
+ </li></ul></div>
+
+<div class="tabtree">
+<ul class="tabrow0">
+<li class="first onerow here selected"><a class="nolink"><span>Visualizza</span></a><div class="tabrow1 empty">&nbsp;</div>
+ </li>
+<li><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=edit/Project%20Wikis" title="Modifica"><span>Modifica</span></a> </li>
+<li><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=links/Project%20Wikis" title="Collegamenti"><span>Collegamenti</span></a> </li>
+<li><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=info/Project%20Wikis" title="Storico"><span>Storico</span></a> </li>
+<li class="last"><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=attachments/Project%20Wikis" title="Allegati"><span>Allegati</span></a> </li>
+</ul>
+</div><div class="clearer"> </div>
+
+<div class="wikilinkright"><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;allowcache=0" title="Ricarica la pagina, in modo da mostrare eventuali nuovi contenuti."><input value="Ricarica" type="button"></a></div><div class="box generalbox generalboxcontent boxaligncenter boxwidthwide"><div class="wiki view Project-Wikis">
+<h2 class="page title"><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=links/Project+Wikis">Project Wikis</a></h2>
+
+
+<h1 align="center">Software Process Management<br><br><font size="5">RSS owl</font></h1>
+<p></p><hr>
+<p></p>
+<ul>
+  <li><strong>Group Members</strong> :
+    <ul>
+      <ul>
+        <li>Nicolò Paternoster </li>
+        <li>Drón Khanna </li>
+      </ul>
+    </ul></li>
+</ul>
+<p></p>
+<p></p><hr>
+<p></p>
+<p></p>
+<ul>
+  <li><strong>Project Name</strong>: RSS Owl </li>
+  <li><strong>Project Short Description</strong>: RSS Owl is an open source news reader ( Atom, RSS ) </li>
+  <li><strong>Lines of Code</strong> : 53,647 </li>
+  <li><strong>Current Version</strong> : 2.0.6 </li>
+  <li><strong>Project Website</strong> : <a href="http://www.rssowl.org/">http://www.rssowl.org</a> </li>
+  <li><strong>Platform</strong> : Macos X, Linux and Windows </li>
+  <li><strong>License</strong>: Eclipse Public License </li>
+  <li><strong>Technologies</strong> : Build on Eclipse RCP 3.4.2 , db4o, Java </li>
+</ul><hr>
+<h2>Project Description:</h2>
+<p>What is RSSOwl? </p>
+<blockquote dir="ltr">
+  <p><em>“</em>Is an a pplications that collect
+data from RSS-compliant sites are called RSS readers or "aggregators."
+RSSOwl is such an application. RSSOwl lets you gather, organize,
+update, and store information from any compliant source in a
+convenient, easy to use interface, save selected information in various
+formats for offline viewing and sharing, and much more. It's easy to
+configure and the best of all: It's platform-independent.” <em>.</em></p>
+  <p>It is written in Java , and released under the <a href="http://www.eclipse.org/legal/epl-v10.html">Eclipse Public License</a> , RSSOwl began as small project on <a>Sourceforge </a>at
+the end of July 2003. RSSOwl 1.0 was released on December 19, 2004.
+RSSOwl was the Sourceforge Project of the Month for January 2005 and by
+the end of 2009 the major release version 2.0 was announced and is now
+available to all users. </p></blockquote>
+<p></p><hr>
+<p><strong><font size="5">Our Contribution</font></strong></p>
+<p>In RSSOwl we are going to edit few features through the Addition,
+Removal and Modification which enhances the quality of Software,
+providing the user a more powerful and useful tool. </p>
+<ul>
+  <li><strong>Feature Addition</strong>
+    <ul>
+      <li>Connect
+with the facebook account of the user and subscribe to facebook's
+friends news feed (Notification, Friends Status Updates, Links) . <i><u>A1</u></i><br></li>
+      <li>Read the emails from a <i>Gmail</i> account . <i><u>A2</u></i><br></li>
+    </ul></li>
+  <li><strong>Feature Modification</strong>
+    <ul>
+      <li>Add the Facebook “<i>like</i>” button to each item of a channel or to a channel itself. <i><u>M1</u></i> </li>
+      <li>Give the user the possibility to directly <u>listen </u>to music into an rss item (<i>f.i.</i> podcast subscriptions with <i>enclosures )</i> using a flash-based open source player and adding it at the end of the item <i>description. </i><i><u>M2</u></i> </li>
+      <li>Modify the preference panel of RSSOwl putting into it some options related to our features. <i><u>M3</u></i> </li>
+    </ul></li>
+</ul>
+<ul>
+  <li><strong>Feature Deletion</strong>
+    <ul>
+      <li>Delete the “<em>Mark as read” ,” Mark as Undread” </em>functions and menu entries.<i> <u>D1</u></i>
+        <ul>&nbsp;
+        </ul></li>
+    </ul></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p><hr>
+<h2 align="center">General Time-Table</h2>
+<p align="center">
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="10%"><strong>ID</strong>
+      </td>
+      <td valign="top" width="10%"><strong>User Story Title</strong>
+      </td>
+      <td valign="top" width="30%"><strong>Description</strong>
+      </td>
+      <td valign="top" width="10%"><strong>Size Estimate </strong>
+      </td>
+      <td valign="top" width="10%"><strong>Size Actual </strong>
+      </td>
+      <td valign="top" width="10%"><strong>Priority (1-3)</strong>
+      </td>
+      <td valign="top" width="10%"><strong>Status</strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="10%"><font size="2"><em>Unique ID for each user story</em></font>
+      </td>
+      <td valign="top" width="10%"><font size="2"><em>Short and descriptive title for each user story</em></font>
+      </td>
+      <td valign="top" width="30%"><font size="2"><em>Description of the intent of the user story</em></font>
+      </td>
+      <td valign="top" width="10%"><font size="2"><em>Your guess estimated of the work effort in ideal hours</em></font>
+      </td>
+      <td valign="top" width="10%"><font size="2"><em>Your actual work-time in hours</em></font>
+      </td>
+      <td valign="top" width="10%">
+        <p><font size="2"><em>1= Must have<br>2= ought to have<br>3= Nice to have</em></font></p>
+      </td>
+      <td valign="top" width="10%"><font size="2"><em>
+        <p><font size="2"><em>1= Done, relesaed <br>2=Currently working <br>3=Defined, not started </em></font></p></em></font>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+      <td valign="top" width="10%"><font size="2">Acquire Knowledge , Project exploring</font>
+      </td>
+      <td valign="top" width="30%">
+        <div align="left">The user can run the program under eclipse and see the application on facebook . </div>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">16
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">14<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">1</font>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">1</font>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">2</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Authorization Panel creation ( FB )</font>
+      </td>
+      <td valign="top" width="30%">The user will be able to enter and save his Facebook credential . (<em><u>A1</u></em>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">12
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10.5
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">3</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Retrieve FB friends feeds</font>
+      </td>
+      <td valign="top" width="30%">The user can view the feeds associated to Facebook updates. (<em><u>A1</u></em>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">12.5
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">13.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">4</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Implement the gmail feed (1)</font>
+      </td>
+      <td valign="top" width="30%">The user willbe able to enter and save his gmail credential (<em><u>A2</u></em>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">9<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">3
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">5</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Implement the gmail feed (2) </font>
+      </td>
+      <td valign="top" width="30%">The user can read the feed channel associated with Gmail account.(<em><u>A2</u></em>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">9<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">6</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Find an audio player</font>
+      </td>
+      <td valign="top" width="30%">The user can try the audio player with a given URL outside RSSOwl.(<u>M1</u>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">9<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">7</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Embed the player </font>
+      </td>
+      <td valign="top" width="30%">If a mp3 file in eclosed into an rss item, then the user will be able to play it inside the product.(<u>M<em>1</em></u>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">9.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">8</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Add the FB “Like” button to items </font>
+      </td>
+      <td valign="top" width="30%">The user will be able to use the Facebook "<em>Like</em>" button for each rss item.(<u>M<em>2</em></u>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">8<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">8<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">9</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Feature Deletion</font>
+      </td>
+      <td valign="top" width="30%">The user cannot mark messages as "<em>read</em>" or "<em>unread</em>" .(<em><u>D1</u></em>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">10</font>
+      </td>
+      <td valign="top" width="10%"><font size="2">Preferences pane</font>
+      </td>
+      <td valign="top" width="30%">We will add some options about our features in the RSSOwl´s preference p.(<u>M<em>3</em></u>)
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">11<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="10%"><font size="2">1</font>
+      </td>
+    </tr></tbody>
+  </table>
+<p align="center"><strike></strike></p><strong>
+<p></p>
+<p>Overview:
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="33%">
+        <p align="center"><strong><em>Lines of Code</em></strong></p>
+      </td>
+      <td valign="top" width="33%">
+        <p align="center"><strong><em> Original</em></strong></p>
+      </td>
+      <td valign="top" width="33%">
+        <p align="center"><strong><em>Modified</em></strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="33%"> <br>
+      </td>
+      <td valign="top" width="33%">
+        <p align="center">53,647</p>
+      </td>
+      <td valign="top" width="33%">
+        <div style="text-align: center;"> <span class="Apple-style-span"><span class="Apple-style-span"><span class="Apple-converted-space"></span>~ 870</span></span></div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="33%">
+        <p align="center"><strong><em>Total Number of Hours</em></strong></p>
+      </td>
+      <td valign="top" width="33%">
+        <p align="center"><strong><em>Estimated ( h )<br></em></strong></p>
+      </td>
+      <td valign="top" width="33%">
+        <p align="center"><strong><em>Actual </em></strong><strong><strong><em>( h )</em></strong></strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="33%"> <br>
+      </td>
+      <td valign="top" width="33%">
+        <p align="center">107.5 <br></p>
+      </td>
+      <td style="text-align: center;" valign="top" width="33%"> 106.5<br>
+      </td>
+    </tr></tbody>
+  </table>
+<p> </p>
+<p></p><hr>
+<p></p>
+<p><br></p></strong>
+<h2>Description of the acceptance Tests : </h2>
+<ul>
+  <li>
+    <p>The user can browse the facebook page associated with our application after we provided the link. (U.S. ID : 1)</p></li>
+  <li>
+    <p>Clicking the <i>Facebook</i>
+button on the RSSOwl's toolbar a Dialog will show up, and the user can
+start the authorization procedure clicking the "OK" button. (U.S. ID :
+2)</p></li>
+  <li>After clicking the "OK" button in the Facebook Dialog, the user will be asked to insert <em>fb username</em> and <em>password</em> and allow the RSSOwl fb application to access his information. <span style="font-style: normal;">(U.S. ID : 2)</span><br></li>
+  <li>If
+the user gives to the facebook application permissions, clicking the
+"Allow" button, the procedure to get the users feed will automatically
+start and after a few seconds <span style="font-style: normal;">he can see on the side bar a new folder called as </span><i>Facebook feeds</i><span style="font-style: normal;"> with feeds connected to his account. (U.S. ID : 3)</span> </li>
+  <li>
+    <p>If the user has already gave fb permissione and got the feeds ,when he click again the <i>Facebook</i> button, nothing will happens.(U.S. ID : 2)</p></li>
+  <li>
+    <p>If the user has given proper <i>facebook</i> authentication after clicking the <i>save</i><span style="font-style: normal;"> button he can see on the side bar a new folder called as </span><i>Facebook feeds</i><span style="font-style: normal;"> with feeds connected to his account. (U.S. ID : 3)</span></p></li>
+  <li>
+    <p>Clicking the <i>Gmail</i> button on the RSSOwl's toolbar the user will be asked to insert <em>username</em> and <em>password</em> for their gmail credential in the forms and save it using the <i>save</i> button . ( U.S. ID : 4 )</p></li>
+  <li>
+    <p>If the user has already saved the data ,when he click again the <i>Gmail</i> button he will see the username and the masked password that he entered before. ( U.S. ID : 4 ) </p></li>
+  <li>
+    <p>If the user has given proper <i><span style="text-decoration: none;">gmail</span></i> authentication after clicking the <i>save</i><span style="font-style: normal;"> button he can see on the side bar a new folder called as </span><i>Gmail</i><span style="font-style: normal;"> with feed connected to his gmail account. ( U.S. ID : 5 )</span> </p></li>
+  <li>
+    <p>Providing
+a valid URL that points out to an mp3 file, the user will be able to
+play that file within an HTML page ( given by us ) with the open source
+player .( U.S. ID : 6 )</p></li>
+  <li>
+    <p>When a rss item has a <i>rss enclosure </i><span style="font-style: normal;"><span style="text-decoration: none;">with the </span></span><i><span style="text-decoration: none;">mp3 </span></i><span style="font-style: normal;"><span style="text-decoration: none;">extention,</span></span><span style="font-style: normal;"> if the client is connected to the Internet,</span>the user can play the song within RSSOwl ( U.S. ID : 7 )</p></li>
+  <li>
+    <p>When the user has already entered his valid facebook credential,after clicking the <i>facebook like button </i><span style="font-style: normal;">integrated in the item, he will see the </span><i>activity</i><span style="font-style: normal;"> related to this action on his </span><i>facebook wall. ( U.S. ID : 8 )</i></p></li>
+  <li>
+    <p>The user will not be able to mark a message as <em>read </em>or <em>unread</em>. ( U.D. ID : 9 )</p></li>
+  <li>
+    <p>The
+user can edit some preferences about new implemented features and see
+the effects of changement after restarting the program. ( U.D. ID : 10 )<br></p></li>
+</ul><hr>
+<p></p>
+<p></p>
+<p align="center"></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h2 align="center">Sprint 1</h2>
+<p><u style="font-weight: bold;">Description</u> : We are going to
+import the project into eclipse getting familiar with the code packages
+and structure. Then we will create a simple facebook application so
+that we can obtain a ´token´ to interact with facebook APIs through
+Java Libraries . Thereafter we will get the knowledge we need to write
+and perform test cases using the JUnit testing tools.</p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.1
+      </td>
+      <td valign="top" width="20%">Import and build the project in Eclipse
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.2
+      </td>
+      <td valign="top" width="20%">Get familiar with the structure of the code and packages
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.3
+      </td>
+      <td valign="top" width="20%">Study/import the facebook java library
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.4
+      </td>
+      <td valign="top" width="20%">Obtain a facebook developer verified account
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.5
+      </td>
+      <td valign="top" width="20%">Create the facebook application to access data and obtain the ‘secret’ code
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-2.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.6
+      </td>
+      <td valign="top" width="20%">Learning about JUnit Test
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">1
+      </td>
+      <td valign="top" width="20%">1.7
+      </td>
+      <td valign="top" width="20%">Write initial test case for User Story 2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><strong>16</strong>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">14<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div><strong style="text-decoration: underline;">Gap Analysis:</strong>
+<p></p>
+<p></p>
+<p>For the first sprint we had to deal with a lot of things that were
+new to both of us: create a facebook application, work with Eclipse RCP
+application, studing coverage and unit test.This is the reason why we
+stimated a big amount of hours and in the end it turned out that we
+were right, as we ecountered several problems.<br>First of all the
+rssowl web site for developers is not up-to-date, bugzilla is not
+working, no one is using the forum anymore and the documentation is not
+exhaustive. That's why we lost some time in finding how to import and
+run the project properly into eclipse environment ( at the beginning we
+were triyng with the wrong version of eclispse ).<br>Then we've found
+out that an official library for interface java with facebook does not
+exists so we had to search for a valid and updated open source library.<br>We
+overstimated the time we needed to get a developer account and build a
+facebook application as none of us had never made it before in the
+past, but then it turned out to be a very trivial task.<br></p>
+<p></p>
+<p></p><hr>
+<p></p>
+<p></p>
+<p></p><br><br>
+<h2 align="center">Sprint 2</h2><br><u style="font-weight: bold;">Description</u> : We are going to create a small panel that allows the user to type <span style="font-style: italic;">username</span> and <span style="font-style: italic;">password</span>
+for facebook and we will save this is information when the button save
+is clicked . Then we will study the java library to interact with the<span style="font-style: italic;"> facebook authentication protocol,</span> and design the initial test case for the sprint 3.<br>
+<p></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">2<br>
+      </td>
+      <td valign="top" width="20%">2.1
+      </td>
+      <td valign="top" width="20%">Learning about UI in Eclipse RCP and SWT libraries<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">2<br>
+      </td>
+      <td valign="top" width="20%">2.2
+      </td>
+      <td valign="top" width="20%">Create a UI panel which contains two forms ( username/password ) and two buttons ( save/cancel )
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">2<br>
+      </td>
+      <td valign="top" width="20%">2.3<br>
+      </td>
+      <td valign="top" width="20%">Manage the facebook credentials of the user
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">2<br>
+      </td>
+      <td valign="top" width="20%">2.4
+      </td>
+      <td valign="top" width="20%">Study the facebook authentication protocol
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+0.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">2<br>
+      </td>
+      <td valign="top" width="20%">2.5<br>
+      </td>
+      <td valign="top" width="20%">Design initial test case for the Sprint 3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><strong>12</strong>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis:</strong></p>
+<p style="text-align: left;"><strong><span style="font-weight: normal;">The
+task that involved the creation of the UI pannel was little more time
+consuming than expected, as we didn't find a exhaustive documentation
+on how to create a Dialog window within RCP application.<br>We
+overexpected the time to manage the credentials of the user because we
+thought it was a complex task as we tought we had to deal with
+encryption, files, and so on, but then it turned out that RSSOwl has
+already classes and interfaces that are in charge to store credentials.
+So we just needed to studying and understanding the functioning.<br>While
+overviewing the facebook authentication protocol we encountered some
+difficulties in understanding how the private Key and session Key works
+toghether.<br>The designing of the inital test case 3 was not performed
+as the task of the sprint 3 are very complex and we agreed that its
+better to wait untill we have clear ideas before proceeding in
+designing test. This task is moved to the next sprint embedded in the
+developement process.<br></span><span style="font-weight: normal;"></span></strong></p>
+<p></p><hr>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p><br></p>
+<h2 align="center">Sprint 3</h2>
+<p><br><u style="font-weight: bold;">Description</u> :In this sprint we
+are going to use the Facebook Java Library to log in to the account of
+user, find the feeds associated , and add this channels into a new
+RSSOwl folder.</p>
+<p></p>
+<p></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">3<br>
+      </td>
+      <td valign="top" width="20%">3.1
+      </td>
+      <td valign="top" width="20%">Log in to facebook user account using stored credentials within RSSOwl<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">3<br>
+      </td>
+      <td valign="top" width="20%">3.2
+      </td>
+      <td valign="top" width="20%">Obtain the secret key of user's session<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">3
+      </td>
+      <td valign="top" width="20%">3.3<br>
+      </td>
+      <td valign="top" width="20%">Study how to obtain the rss feeds connected to user's account<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">3<br>
+      </td>
+      <td valign="top" width="20%">3.4
+      </td>
+      <td valign="top" width="20%">Add rss channels related to updates (Pt.1)<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">12.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">13.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis:</strong></p>
+<p style="text-align: left;"><strong><span style="font-weight: normal;">As
+soon as we started working on this User Story, we'found out that in the
+meantime facebook had changed their policies to access RSS feeds url.
+As facebook is interested to let the user visit their pages for
+commercial reasons and for this purpose is trying hard to keep the
+source of the RSS feed hidden. <br>So the plan we had in the beginning
+to retreive the URL connected to user feed got changed completely:we
+are not using the login dialog anymore but instead the official JS page
+loaded into internal browser. <br>Then we created a small 'walkaround' to generate the feed's URL, obtaining the <span style="font-style: italic;">keys </span>out
+of the HTML source of two pages ( notifications.php and notes.php)
+where they are stored. This took us some extra time to achieve the
+result.<br>As we waste a lot of time literally fighting for getting the </span></strong><strong><span style="font-weight: normal;">feed's URL</span></strong><strong><span style="font-weight: normal;">,
+we splitted the task 3.4 : "Adding the rss channels" in two parts: in
+the first part we generated the URL, and in the second (3.5) part we
+will </span></strong><strong><span style="font-weight: normal;">(Sprint 4) create the folder and the channels in the UI.</span></strong><strong><span style="font-weight: normal;"> </span></strong></p><br><strong></strong><hr>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p><strong><br></strong></p>
+<h2 align="center"><strong>Sprint 4</strong></h2>
+<p><strong><br><u style="font-weight: bold;">Description</u><span style="font-weight: normal;">:
+During this sprint we will complete the implementation of the User
+Story 3 and the first part of user story 4. The user will be able to
+store his gmail credential and see the Feeds related to facebook
+accounts.</span><br></strong></p>
+<p></p>
+<p></p>
+<p>
+<strong>  </strong></p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td style="font-weight: bold;" valign="top" width="20%">
+        <p>Size (Hr) Estimated</p>
+      </td>
+      <td style="font-weight: bold;" valign="top" width="20%">
+        <p>Size(hr) Actual</p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><span style="font-weight: bold;">Status</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: normal;" valign="top" width="20%"><span style="font-weight: normal;">3</span><br>
+      </td>
+      <td valign="top" width="20%">3.1
+      </td>
+      <td valign="top" width="20%">Add rss channels related to updates (Pt.2)<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">0
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">3</span><br>
+      </td>
+      <td valign="top" width="20%">3.2
+      </td>
+      <td style="font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">Store Facebook authentication state on file</span><br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">-1<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">4
+      </td>
+      <td style="font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">4.1</span><br>
+      </td>
+      <td style="font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">Create an Authentication Panel for Gmail</span><br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">2</span><br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">4</span><br>
+      </td>
+      <td valign="top" width="20%">4.2
+      </td>
+      <td style="font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">Manage gmail credentials</span><br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%"><span style="font-weight: normal;">1.5</span><br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right; font-weight: bold;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">9<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong><strong style="font-weight: normal;"></strong><strong style="font-weight: normal;">
+<p style="text-align: right;"><font size="2"><em>1= Done, relesaed</em></font><font size="2"><br><em>2=Currently working</em></font><font size="2"><br>3<em>=Defined, not started</em></font></p>
+<p style="text-align: left;"><strong><u>Gap Anlysis : </u></strong></p>
+<p style="text-align: left;">After some attempts ,in order to store the
+facebook authentication state on a file we found more covenient to use
+the Credential Interface provided by RSSOwl for username/password
+storage.<br>We also took less time then expected to create the
+authentication panel for gmail as we already had the knowledge acquired
+in the second sprint while creating the facebook dialog.In this way
+writing tests for this implementation has been done without problems.<br>The
+small experience we acquired in the first step of this project this
+time made us make more capable of doing precise estimation.</p></strong>
+</strong><p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left;"></p><strong></strong><hr>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p></p>
+<p></p>
+<p></p>
+<p style="text-align: left; text-decoration: underline;"><br><br></p>
+<h2 align="center">Sprint 5</h2>
+<p align="left"><strong><u>Description </u></strong>: During this
+sprint we will show in the UI the Gmail folder containing the gmail
+feed with new emails of the user, and implement the gmail
+authentication state management. Then we will control the Facebook
+authentication process through a progess bar. Furthermore we will
+control the "delete folder" event so that we can change the state(s) of
+authentication(s).</p>
+<p></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><span style="font-weight: normal;">3</span><br>
+      </td>
+      <td valign="top" width="20%">3.1
+      </td>
+      <td valign="top" width="20%">Control authentication process with a progress bar
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">5<br>
+      </td>
+      <td valign="top" width="20%">5.1
+      </td>
+      <td valign="top" width="20%">Create gmail folder with related news channel in the UI
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">5<br>
+      </td>
+      <td valign="top" width="20%">5.2<br>
+      </td>
+      <td valign="top" width="20%"><span style="font-weight: normal;">Store Gmail authentication state on file</span>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">5<br>
+      </td>
+      <td valign="top" width="20%">5.3
+      </td>
+      <td valign="top" width="20%">Control folder deletion event
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+0.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">9
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis: <br></strong></p>
+<p style="text-align: left;">In this sprint we underestimate the total
+time of about an hour because writing tests for UI turned out to be not
+as easy as normal testing, as during testing phase we dont have real
+graphical objects and we needed to simulate them (and learn how to do
+it).</p>
+<p style="text-align: left;"><br></p><hr>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p></p>
+<p></p>
+<p></p>
+<p style="text-align: left; text-decoration: underline;"><br><br></p>
+<h2 align="center">Sprint 6</h2>
+<p align="left"><strong><u>Description </u></strong>:We are going to analyze and find a tecnical solution for playing audio files '<span style="font-style: italic;">attached</span>'
+to an rss item and create an html page which can play an mp3 file from
+given URL. Then we will try to find a solution to implement a open
+source player into the RSSOwl.<br></p>
+<p></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">6<br>
+      </td>
+      <td valign="top" width="20%">6.1
+      </td>
+      <td valign="top" width="20%">Study how an audio player can be integrated into the project.<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">6<br>
+      </td>
+      <td valign="top" width="20%">6.2
+      </td>
+      <td valign="top" width="20%">Find and study a specific open source audio player for our purpose.<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">6<br>
+      </td>
+      <td valign="top" width="20%">6.3<br>
+      </td>
+      <td valign="top" width="20%">Recognize mp3 enclosures in rss items.<br><br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">6<br>
+      </td>
+      <td valign="top" width="20%">6.4
+      </td>
+      <td valign="top" width="20%">Create a simple HTML page that can play an input.<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">9
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis:</strong></p>
+<p style="text-align: left;">RSSOwl supports both Atom and RSS (1 and 2
+version) standards which can support enclosures with different markups:
+for this reason we spent more time than expected how to implement a
+unique solution. The process of identification of the mime type of mp3
+in both rss and atom parsers was easier than expected as both parsers
+extends a basic parser class.<br>For creating the HTML page we took
+some more time as we wanted to do it using javascript that does not
+provide a standard way for reading http GET parameters. We had to
+create a external js file for that purpose.<br></p><hr>
+<p style="text-align: left; text-decoration: underline;"><br></p>
+<h2 align="center">Sprint 7</h2>
+<p align="left"><strong><u>Description </u></strong>: During this
+sprint we will implement the mp3 audio player in to the reader, so that
+the user can play the song (if present) without downloading it. Then we
+will export a stand-alone version of RSSOwl with our Additions and
+Modification .<br></p>
+<p align="left"><br></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">7<br>
+      </td>
+      <td valign="top" width="20%">7.1
+      </td>
+      <td valign="top" width="20%">Embedd the player into message's body.<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">7<br>
+      </td>
+      <td valign="top" width="20%">7.2
+      </td>
+      <td valign="top" width="20%">Testing the new modification.<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">7<br>
+      </td>
+      <td valign="top" width="20%">7.3<br>
+      </td>
+      <td valign="top" width="20%">Create a stand-alone ,multi platform, product <br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">8<br>
+      </td>
+      <td valign="top" width="20%">8.1<br>
+      </td>
+      <td valign="top" width="20%">Study Facebook "Like" button feature<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">9.5
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis:</strong></p>
+<p style="text-align: left;">Embedding the audio player into the RSS
+and ATOM body of message required some extra time because we have to
+handle multiples mp3 enclosures and for this purpose we had to modify
+and implement some new feature on the INews interface. This took us
+some extra time.<br>For testing the new modification we took as example the <span style="font-style: italic;">Interpreter Test</span> that was already present in the open source project : in this way we saved time.<br>We
+underestimate the amount of time needed to export the product for linux
+and macosx as an additional Eclipse RCP plugin is required to do that
+job and we spent some time in learning how to use it.<br></p><hr>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p style="text-align: left; text-decoration: underline;"><br></p>
+<h2 align="center">Sprint 8</h2>
+<p align="left"><strong><u>Description </u></strong>: In this sprint we will implement the Facebook "like" button, embedding the button at the end of the news's body.<br></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">8<br>
+      </td>
+      <td valign="top" width="20%">8.1
+      </td>
+      <td valign="top" width="20%">Study the interpreter<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">8<br>
+      </td>
+      <td valign="top" width="20%">8.2
+      </td>
+      <td valign="top" width="20%">Generate the HTML code for the like button
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">8<br>
+      </td>
+      <td valign="top" width="20%">8.3<br>
+      </td>
+      <td valign="top" width="20%">Embed the HTML code into the body of each news<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">8<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">8<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis:<br></strong></p>We
+spent half an hour extra for maintaining the old code as we
+noticed,after running unit tests, that facebook changed an HTML page
+and our first addition was not working anymore. We fixed it and now it
+works.<br>Embedding the HTML button in the body of the message was easy
+but then we noticed that the button is working only when an user is
+logged in on facebook and we tried different solutions and after that
+we figured out that it will work only when the user is logged in on
+facebook.<br><br><hr>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p style="text-align: left; text-decoration: underline;"><br></p>
+<h2 align="center">Sprint 9</h2>
+<p align="left"><strong><u>Description </u></strong>: During this sprint we are going to make the "deletion". We will remove the feature which let the user mark an item as <span style="font-style: italic;">"read/unread"</span>.<br></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">9<br>
+      </td>
+      <td valign="top" width="20%">9.1
+      </td>
+      <td valign="top" width="20%">Find all the different ways in which the user can perform the "mark as read/unread" action.<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">9<br>
+      </td>
+      <td valign="top" width="20%">9.2
+      </td>
+      <td valign="top" width="20%">Remove the feature from the UI<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">9<br>
+      </td>
+      <td valign="top" width="20%">9.2<br>
+      </td>
+      <td valign="top" width="20%">Remove the feature from the core<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">9<br>
+      </td>
+      <td valign="top" width="20%">9.3<br>
+      </td>
+      <td valign="top" width="20%">Testing the deletion<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">+1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis: <br></strong></p>
+<p style="text-align: left;">As the UI is built completely under the
+eclipse environment, removing the graphical object related to the "
+Mark as Read / Unread " was quite easy. We completely removed it from :
+search dialog, context menu, tool bar, menu bar, mark all as read,
+selecting an item with mouse or arrows.<br>For making tests work it was
+hard because the current unit tests are very complex so that we had to
+comment,replace, change and ignore several tests.<br></p>
+<p style="text-align: left; text-decoration: underline;"><br></p>
+<p></p><hr>
+<p></p>
+<p></p>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p style="text-align: left; text-decoration: underline;"></p>
+<p style="text-align: left; text-decoration: underline;"><br></p>
+<h2 align="center">Sprint 10<br></h2>
+<p align="left"><strong><u>Description </u></strong>: We will add a entry in the preference panel with some options for our additions and modifications.<br></p>
+<p>
+  </p><table border="1" cellpadding="1" cellspacing="1" width="100%"><tbody>
+    <tr>
+      <td valign="top" width="20%"><strong>User story </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task ID </strong>
+      </td>
+      <td valign="top" width="20%"><strong>Task Description </strong>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size (Hr) Estimated</strong></p>
+      </td>
+      <td valign="top" width="20%">
+        <p><strong>Size(hr) Actual</strong></p>
+      </td>
+      <td valign="top" width="20%"><strong>Gap(Actual -Estimated)</strong>
+      </td>
+      <td valign="top" width="20%"><strong>Status </strong>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">10<br>
+      </td>
+      <td valign="top" width="20%">10.1
+      </td>
+      <td valign="top" width="20%">Study how the preference panel works<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">2<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">10<br>
+      </td>
+      <td valign="top" width="20%">10.2
+      </td>
+      <td valign="top" width="20%">Choose some option the user can change/select<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">10<br>
+      </td>
+      <td valign="top" width="20%">10.3<br>
+      </td>
+      <td valign="top" width="20%">Implement the modifications in the code<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">4<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">0<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%">10<br>
+      </td>
+      <td valign="top" width="20%">10.4<br>
+      </td>
+      <td valign="top" width="20%">Create and implement the panel for options<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">3<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">1<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%"><br>
+      </td>
+      <td valign="top" width="20%">
+        <div style="text-align: right;"><strong>TOTAL:</strong></div>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">11<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">10.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%">-0.5<br>
+      </td>
+      <td style="text-align: right;" valign="top" width="20%"><br>
+      </td>
+    </tr></tbody>
+  </table><strong style="font-weight: normal;"></strong>
+<div style="text-align: right;"><strong style="font-weight: normal;">
+  <p><font size="2"><em>1= Done, relesaed</em></font><font size="2"><em><br>2=Currently working</em></font><font size="2"><em><br>3=Defined, not started </em></font><strong style="font-weight: normal;"></strong></p></strong></div>
+<p></p>
+<div style="text-align: center;"></div>
+<p style="text-align: left; text-decoration: underline;"><strong>Gap Analysis: <br></strong></p>
+<p style="text-align: left;">Implementing the option panel has been
+done using RSSOwl standards and we me a correct estimation. We
+implemented two options: 2 checkboxes that let the user disable/enable
+the mp3 player and the Facebook like button. The enabling/disabling
+will affect only new items.<br></p>
+<p></p><hr>
+<p></p>
+<p></p>
+<ul>
+  <li><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=LinkPage">LinkPage</a> </li>
+  <li><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=Class_Diagrams">Class_Diagrams</a><br></li>
+</ul>
+<p></p>
+<p align="center"><img complete="true" src="Project+Wikis_files/RSSOwl.png" alt="rssowl_logo" title="rssowl_logo" align="middle" border="0" hspace="0"></p>
+<p><br></p> 
+
+
+<br><br><hr><h4><a href="http://teaching.case.unibz.it/mod/wiki/view.php?id=10056&amp;page=attachments/Project+Wikis">Sono presenti degli allegati</a></h4>
+</div>
+</div><br>
+    </div>
+    
+</div> <!-- end div containerContent -->
+<!-- START OF FOOTER -->
+<div id="footer">
+<p class="helplink"></p><div class="logininfo">Sei collegato come <a href="http://teaching.case.unibz.it/user/view.php?id=2088&amp;course=273">Nicolo Paternoster</a>.  (<a href="http://teaching.case.unibz.it/login/logout.php?sesskey=C2eApWia3e">Esci</a>)</div><div class="homelink"><a href="http://teaching.case.unibz.it/course/view.php?id=273">1011-CS-SPM</a></div><!-- <p><div class="homelink"><a  href="/course/view.php?id=">  </a></div></p> -->
+<p>
+<!-- <<a href="http://validator.w3.org/check?verbose=1&amp;ss=1&amp;uri=http%3A%2F%2Fteaching.case.unibz.it%2Fmod%2Fwiki%2Fview.php%3Fid%3D10056"><img src="http://teaching.case.unibz.it/theme/chameleon/xhtml_1_0.gif" alt="XHTML Validator" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fteaching.case.unibz.it%2Fmod%2Fwiki%2Fview.php%3Fid%3D10056&amp;warning=1&amp;profile=css2&amp;usermedium=all"><img src="http://teaching.case.unibz.it/theme/chameleon/css.gif" alt="CSS Validator" /></a> 
+<a href="http://www.contentquality.com/mynewtester/cynthia.exe?rptmode=-1&amp;url1=http%3A%2F%2Fteaching.case.unibz.it%2Fmod%2Fwiki%2Fview.php%3Fid%3D10056"><img src="http://teaching.case.unibz.it/theme/chameleon/section_508.gif" alt="Section 508 Validator" /></a> -->
+</p>
+</div>
+</div>
+</body></html>
